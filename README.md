@@ -304,13 +304,6 @@
                 <div class="giftbox-items">
                     <div class="giftbox-item">
                         <img src="images/romantic-evening-set.jpg" alt="Romantic Evening Set">
-<img 
-    src="images/sample.jpg" 
-    alt="Giftbox Image" 
-    style="max-width: 150px; height: 150px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px; object-fit: cover; transition: transform 0.3s ease-in-out;" 
-    onmouseover="this.style.transform='scale(1.3)'" 
-    onmouseout="this.style.transform='scale(1)'"
->
                         <p>Romantic Evening Set</p>
                     </div>
                     <div class="giftbox-item">
@@ -498,7 +491,7 @@
         colorChoice.addEventListener('change', (e) => {
             const selectedColor = e.target.value;
             const packagePreview = document.getElementById('package-preview');
-            packagePreview.src = `images/package-${selectedColor}.jpg`;
+            packagePreview.src = images/package-${selectedColor}.jpg;
         });
 
         // تغییر طرح بسته
@@ -506,7 +499,7 @@
         designStyle.addEventListener('change', (e) => {
             const selectedStyle = e.target.value;
             const packagePreview = document.getElementById('package-preview');
-            packagePreview.src = `images/package-${selectedStyle}.jpg`;
+            packagePreview.src = images/package-${selectedStyle}.jpg;
         });
 
         // آپلود تصویر دلخواه
